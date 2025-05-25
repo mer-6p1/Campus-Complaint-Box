@@ -39,10 +39,15 @@ If you want the bot to work even when your PC is off, you can upload the code to
 3. A list of the project’s main features
    
 •	Share Complaint – Students can submit complaints by choosing a category
+
 •	View My Complaints – Students can see their own past complaints
+
 •	View Others’ Complaints – Anyone can read and react to other complaints
+
 •	Admin Login – Admins use a password to access their dashboard
+
 •	New Complaints List – Admins see new complaints they haven’t checked yet
+
 •	Solved & Unsolved Tabs – Admins can manage and categorize complaints
 
 4. The names of all group members
