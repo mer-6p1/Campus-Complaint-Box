@@ -83,7 +83,7 @@ If you want the bot to work even when your PC is off, you can upload the code to
 
 4. The names of all group members
 
-   1. Metrefua Tessema
+   1. Metrefua Tessema [metrefua] (https://github.com/metrefua)
 
    2. Meron Bruh [M-start112] (https://github.com/M-star112)
 
