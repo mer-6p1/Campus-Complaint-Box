@@ -88,7 +88,7 @@ If you want the bot to work even when your PC is off, you can upload the code to
 2.	Meron Tamrat [mer-6p1]  (https://github.com/mer-6p1)
    
 3.	Meron Bruh [M-start112] (https://github.com/M-star112)
-   
+
 4.	Nebat Abdenur  [nebatabdenur] (https://github.com/nebatabdenur)
    
-5.Yohana Alemayehu  [yohi43] (https://github.com/yohi43)
+5.	Yohana Alemayehu  [yohi43] (https://github.com/yohi43)
