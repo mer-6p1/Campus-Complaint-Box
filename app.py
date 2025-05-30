@@ -14,3 +14,20 @@ if menu == "Submit Complaint":
     complaint = st.text_area("Enter your complaint")
     category = st.selectbox("Select category", CATEGORIES)
     keyword = st.text_input("Create a secret keyword (used to view your complaints later)")
+
+    if st.button("Submit"):
+        if not complaint or not keyword:
+            st.warning("Please complete all fields.")
+        else:
+            data = {
+                "complaint": complaint,
+                "category": category,
+                "keyword": keyword.strip().lower(),
+                "status": "Unsolved",
+                "timestamp": str(datetime.now()),
+                "upvotes": 0,
+                "downvotes": 0
+            }
+            save_complaint(data)
+            st.success(f"✅ Complaint submitted anonymously under '{category}'.")
+          
