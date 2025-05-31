@@ -1,1 +1,1 @@
-admin_password = "your_password_here" 
+ADMIN_PASSWORD = "admin-CCB#17"
