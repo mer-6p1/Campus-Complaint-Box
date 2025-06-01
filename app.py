@@ -2,10 +2,13 @@ import streamlit as st
 import json
 import uuid
 from datetime import datetime
-st.sidebar.info(f"🔐 Loaded Admin Password: {st.secrets['ADMIN_PASSWORD']}")
 
+# ✅ MUST be the first Streamlit command
+st.set_page_config(page_title="Anonymous Complaint Box", layout="centered")
+
+# ✅ Secrets should be accessed after set_page_config
 ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
-# your admin password from secret.py
+st.sidebar.info("🔐 Admin password loaded.")  # Avoid printing actual password for security
 
 # File to store complaints
 COMPLAINT_FILE = "complaints.json"
@@ -48,7 +51,6 @@ def update_vote(complaint_id, vote_type):
 
 # App
 def main():
-    st.set_page_config(page_title="Anonymous Complaint Box", layout="centered")
     st.title("📢 Anonymous Student Complaint Box")
 
     menu = st.sidebar.selectbox("Select Option", ["Submit Complaint", "My Complaints", "View All Complaints", "Admin"])
