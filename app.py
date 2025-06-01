@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import uuid
 from datetime import datetime
-import streamlit as st
+st.sidebar.info(f"🔐 Loaded Admin Password: {st.secrets['ADMIN_PASSWORD']}")
 
 ADMIN_PASSWORD = st.secrets["ADMIN_PASSWORD"]
 # your admin password from secret.py
