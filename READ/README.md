@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. A clear description of the project
 <<<<<<< HEAD
 
@@ -105,3 +106,6 @@ If you want the bot to work even when your PC is off, you can upload the code to
 4.	Nebat Abdenur                                 UGR/6830/17
 5.	Yohana Alemayehu                          UGR/2258/17 
 >>>>>>> 597422c0e98837286b146c76e3e2c95198ed32ed
+=======
+
+>>>>>>> 14765e3c5040c730e52ee38267c7adb52689d7c1
